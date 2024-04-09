@@ -7,18 +7,10 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="AWSSDK.SimpleNotificationService" Version="3.7.101.83" />
-        <PackageReference Include="Dapper" Version="2.0.143" />
-        <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
-        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.3"/>
-        <PackageReference Include="Microsoft.Data.Sqlite" Version="7.0.8" />
-        <PackageReference Include="SQLite" Version="3.13.0" />
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0"/>
-    </ItemGroup>
-
-
-    <ItemGroup>
-      <ProjectReference Include="..\Contracts\Contracts.csproj" />
+        <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.101.27" />
+        <PackageReference Include="FluentValidation.AspNetCore" Version="11.0.1" />
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     </ItemGroup>
 
 </Project>
